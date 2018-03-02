@@ -13,10 +13,16 @@ docker-compose up
 2. For developing, run these in two terminals
 > you need to setup PostgreSQL(or MySQL is available if making some changes in config file)
 
+- Init project
+```
+npm install
+```
+
 - Server side, serve api on http://localhost:80
 ```
 sudo npm run forever
 ```
+
 - Client side, serve DEV on http://localhost:3000
 ```
 npm run start
