@@ -1,0 +1,41 @@
+{
+  "name": "admin-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "connect-session-sequelize": "^5.2.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express-session": "^1.15.6",
+    "forever-monitor": "^1.7.1",
+    "install": "^0.10.4",
+    "material-ui": "^1.0.0-beta.35",
+    "material-ui-icons": "^1.0.0-beta.35",
+    "morgan": "^1.9.0",
+    "npm": "^5.6.0",
+    "passport": "^0.4.0",
+    "pg": "^7.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "^1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "sequelize": "^4.35.1",
+    "sequelize-cli": "^4.0.0",
+    "typeface-roboto": "0.0.54"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "node server/bin/www",
+    "forever": "node server",
+    "migrate": "cd server && ../node_modules/.bin/sequelize db:migrate"
+  }
+}
