@@ -2,7 +2,7 @@ This project was bootstrapped with
 - [Create React App](https://github.com/facebookincubator/create-react-app) for client side
 - Express for server side
 
-I spent around 8 hours for this demo.
+Key Word: **react.js**, **redux**, **react-router**, **MaterialUI**, **Express**, **Sequelize**, **Docker**
 
 # How to run - take these two ways
 1. Run with Docker, then open http://localhost/admin
